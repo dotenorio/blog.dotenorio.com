@@ -4,12 +4,12 @@
 
 # Site
 title: dotenorio
-subtitle:
-description:
-keywords:
+subtitle: O Blog
+description: Este é o Blog dotenorio :D
+keywords: blog, dotenorio
 author: Fernando Migliorini Tenório
-language:
-timezone:
+language: pt
+timezone: America/Sao_Paulo
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -62,7 +62,7 @@ tag_map:
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
+date_format: DD/MM/YYYY
 time_format: HH:mm:ss
 
 # Pagination
