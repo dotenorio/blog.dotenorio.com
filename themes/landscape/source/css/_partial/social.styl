@@ -1,0 +1,25 @@
+#footer
+  a
+    &:hover
+      text-decoration: none
+  .inner
+    width: auto
+  #footer-social
+    float: right
+    font-size: 20px
+    a
+      display: inline-block
+      margin: 0 5px
+
+$social-icon
+  font-family: font-icon
+
+.social-twitter
+  @extend $social-icon
+  &:before
+    content: "\f099"
+
+.social-facebook
+  @extend $social-icon
+  &:before
+    content: "\f082"
