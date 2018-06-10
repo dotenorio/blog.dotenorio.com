@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: dotenorio
-subtitle: O Blog
-description: Este é o Blog dotenorio :D
+title: Fernando M. Tenório
+subtitle: O Blog dotenorio, um cara sempre pronto pra ajudar :D
+description: Este é o Blog dotenorio, um cara sempre pronto pra ajudar :D
 keywords: blog, dotenorio
 author: Fernando Migliorini Tenório
 language: pt
@@ -54,7 +54,7 @@ index_generator:
   order_by: -date
   
 # Category & Tag
-default_category: uncategorized
+default_category: Geral
 category_map:
 tag_map:
 
@@ -80,3 +80,6 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/dotenorio/dotenorio.github.io
+
+# Disqus
+disqus_shortname: dotenorio
