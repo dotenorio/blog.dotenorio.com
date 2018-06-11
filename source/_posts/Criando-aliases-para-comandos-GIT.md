@@ -10,6 +10,8 @@ Eu sempre achei chato ter que escrever `checkout` toda vez para recuperar algum 
 
 Você pode dizer que isso dislexia. Não é!!! (pelo menos eu acho que não :p)
 
+<!-- more -->
+
 Piadocas a parte, descobri que o *GIT* tinha um recurso para criar aliases para seus comandos, e que é bem simples.
 Por exemplo, para não ter de ~~errar~~ escrever mais `checkout` eu rodei o seguinte comando:
 
