@@ -2,6 +2,7 @@
 title: Criando aliases para comandos GIT
 date: 2018-06-11 12:44:51
 tags: git, aliases, config
+category: Geral
 ---
 
 Se assim como eu, você é o típico programador preguisoço que quer automatizar tudo, escrever pouco e tentar dominar o mundo todos com o mínimo de esforço. Bem, essa dica é pra você!
