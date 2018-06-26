@@ -5,7 +5,7 @@ tags: mobileui, pega_varetas
 category: Geral
 ---
 
-Pra quem não sabe [**MobileUI**](https://mobileui.github.io/) `is a simple and easy NPM package to install UI Components for web mobile apps using HTML, CSS and JavaScript`, ou seja, um monte de recursos visuais (em sua maioria) com os quais possibilitam
+Pra quem não sabe [**MobileUI**](https://mobileui.github.io/) `is a simple and easy NPM package to install UI Components for web mobile apps using HTML, CSS and JavaScript`, ou seja, um monte de recursos visuais (em sua maioria) com os quais possibilitam criar belos aplicativos de maneira bem simples e rápida.
 
 Ok, mas o que isso tem a ver com **Pega Varetas**? Ainda nada, mas vamos chegar lá..
 
