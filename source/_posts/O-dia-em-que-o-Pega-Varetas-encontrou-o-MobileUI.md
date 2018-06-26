@@ -2,6 +2,7 @@
 title: O dia em que o Pega Varetas encontrou o MobileUI
 date: 2018-06-26 16:20:34
 tags: mobileui, pega_varetas
+category: Geral
 ---
 
 Pra quem não sabe [**MobileUI**](https://mobileui.github.io/) `is a simple and easy NPM package to install UI Components for web mobile apps using HTML, CSS and JavaScript`, ou seja, um monte de recursos visuais (em sua maioria) com os quais possibilitam
