@@ -9,6 +9,8 @@ Pra quem não sabe [**MobileUI**](https://mobileui.github.io/) `is a simple and 
 
 Ok, mas o que isso tem a ver com **Pega Varetas**? Ainda nada, mas vamos chegar lá..
 
+<!-- more -->
+
 Dia desses jogando **Pega Varetas** com meu filho de 5 anos, ele resolveu considerar os pontos de cada cor de vareta, e me fez buscar na internet os valores e fazer as contas para descobrir quem realmente tinha ganho.. Eu perdi é claro! Mas vi ali a oportunidade de fazer um app realmente útil e aqui estamos..
 
 Como eu trabalho com o criador do **MobileUI** e já havia utilizado esta ferramenta num hackaton a uns tempos atrás, juntei a fome com a vontade de comer. O app para salvar minhas noites de jogatina com meu muleque seria feito utilizando **MobileUI**.
