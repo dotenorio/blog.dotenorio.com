@@ -1,7 +1,7 @@
 ---
 title: O dia em que o Pega Varetas encontrou o MobileUI
 date: 2018-06-26 16:20:34
-tags: mobileui, pega_varetas
+tags: [mobileui, pega_varetas]
 category: Geral
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Olá Mundo
 category: Geral
-tags: ola, mundo
+tags: [ola, mundo]
 date: 2018-06-08 17:13:27
 ---
 Seja bem-vindo ao meu estimado blog!

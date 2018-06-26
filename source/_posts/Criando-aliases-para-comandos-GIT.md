@@ -1,7 +1,7 @@
 ---
 title: Criando aliases para comandos GIT
 date: 2018-06-11 12:44:51
-tags: git, aliases, config
+tags: [git, aliases, config]
 category: Geral
 ---
 
