@@ -24,6 +24,11 @@ description: Minhas palestras por esse mundão a fora.
 **Organização:** [TecnoSpeed](http://tecnospeed.com.br)  
 **Evento:** Tech Talk
 
+**Data:**  06/09/2018  
+**Local:** FEITEP  
+**Organização:** [FEITEP](http://www.feitep.edu.br)  
+**Evento:** [Semana de Arquitetura e Engenharias Feitep 2018](https://www.facebook.com/events/223131065002550/)
+
 &nbsp;
 
 [AMP - Accelerated mobile pages](https://docs.google.com/presentation/d/10N5rdemoXsjKjcJ_7BiTyFkNCSzWPSUX3vDW9ulY-BA/edit?usp=sharing)
@@ -52,6 +57,20 @@ description: Minhas palestras por esse mundão a fora.
 **Local:** TecnoSpeed  
 **Organização:** [TecnoSpeed](http://tecnospeed.com.br)  
 **Evento:** Tech Talk
+
+&nbsp;
+
+[Software Livre: chegou a sua hora de contribuir!](https://docs.google.com/presentation/d/14GJyMmO-uiFbhA4dCIKfUDkEqRk7GPNKrVtEoyukmO0/edit?usp=sharing)
+----
+
+> Bom, usamos os famosos software, bibliotecas, posts, etc.. livres todos os dias o tempo todo, mas será que devolvemos algo para comunidade?? Talvez já tenha passado a hora de você contribuir de alguma forma..
+> Acredite!
+> Um simples ponto pode deixar o dono do repositório imensamente grato.
+
+**Data:**  02/08/2018  
+**Local:** UDS Tecnologia 
+**Organização:** [BEMUG](https://github.com/bemugmga)  
+**Evento:** [11º Encontro Backend Meetup Group Maringá](https://www.meetup.com/pt-BR/developerparana/events/253306850/)
 
 &nbsp;
 
