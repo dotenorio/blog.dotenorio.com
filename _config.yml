@@ -79,7 +79,8 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/dotenorio/dotenorio.github.io
+  repo: https://github.com/dotenorio/blog.git
+  branch: gh-pages
 
 # Disqus
 disqus_shortname: dotenorio
