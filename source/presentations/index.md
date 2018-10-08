@@ -85,4 +85,16 @@ description: Minhas palestras por esse mundão a fora.
 
 &nbsp;
 
+[▲ now - Vou lhes apresentar um novo conceito para serverless, agora!](https://docs.google.com/presentation/d/19wtuEkX2YGNlw5K0-gix5zmd_jHwMmR4x37gukVwVNg/edit?usp=sharing)
+----
+
+> Vou falar um pouco do [now](https://zeit.co/now) e sobre minha experiência com ele.
+
+**Data:**  04/09/2018  
+**Local:** Orbital  
+**Organização:** [BEMUG](https://github.com/bemugmga)  
+**Evento:** [4º Encontro Backend Meetup Group Maringá](https://www.meetup.com/pt-BR/developerparana/events/254979519/)
+
+&nbsp;
+
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Este trabalho está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons - Atribuição  4.0 Internacional</a>.
