@@ -250,7 +250,7 @@ Veja os plugins disponíveis [aqui](https://hexo.io/plugins/), baixe um, leia a 
 
 &nbsp;
 
-Por hoje é só pessoal!
+### Por hoje é só pessoal!
 
 Se tiver dúvidas, sugestões ou o que quer seja relacionado ao Hexo e a criação de blogs, deixe seu comentário.
 
