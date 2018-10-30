@@ -5,7 +5,9 @@ tags: [hexo, framework, blogs, static, nodejs, javascript, markdown, open-source
 category: Geral
 ---
 
-Olá!
+Quem diz que a era dos Blogs na internet acabou, não poderia estar mais errado. Com a recente disseminação de conhecimento sobre marketing de conteúdo e SEO, ter um blog atualizado para o seu negócio se tornou ainda mais essencial para sua estratégia de marketing.
+
+Por outro lado, é provável que você não tenha muito tempo disponível para desenvolver um blog a partir de um framework complexo. Por isso, hoje venho te apresentar uma alternativa prática e eficiente, que permitirá implementar um blog bonito e funcional para você ou sua empresa em apenas 6 passos: o Hexo.
 
 [**Hexo**](https://hexo.io/pt-br/) nada mais é do que mais um projeto **javascript** para agilizar as coisas, ou, como ele mesmo se entitula: Um rápido, simples e poderoso framework para blogs.
 
