@@ -2,7 +2,7 @@
 menu:
   Home: /
   Arquivos: /archives
-  Palestras: /presentations
+  Palestras: https://github.com/dotenorio/palestras#palestras
 rss: /atom.xml
 
 # Content
