@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Fernando M. Tenório</title>
+  
+  <subtitle>O Blog dotenorio, um cara sempre pronto pra ajudar :D</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://blog.dotenorio.com/"/>
+  <updated>2019-03-27T18:00:43.591Z</updated>
+  <id>https://blog.dotenorio.com/</id>
+  
+  <author>
+    <name>Fernando Migliorini Tenório</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo - Seu blog em 6 passos</title>
+    <link href="https://blog.dotenorio.com/2018/10/29/Hexo-Seu-blog-em-6-passos/"/>
+    <id>https://blog.dotenorio.com/2018/10/29/Hexo-Seu-blog-em-6-passos/</id>
+    <published>2018-10-30T02:05:48.000Z</published>
+    <updated>2019-03-27T18:00:43.591Z</updated>
+    
+    <content type="html"><![CDATA[<p>Quem diz que a era dos Blogs na internet acabou, não poderia estar mais errado. Com a recente disseminação de conhecimento sobre marketing de conteúdo e SEO, ter um blog atualizado para o seu negócio se tornou ainda mais essencial para sua estratégia de marketing.</p><p>Por outro lado, é provável que você não tenha muito tempo disponível para desenvolver um blog a partir de um framework complexo. Por isso, hoje venho te apresentar uma alternativa prática e eficiente, que permitirá implementar um blog bonito e funcional para você ou sua empresa em apenas 6 passos: o Hexo.</p><p><a href="https://hexo.io/pt-br/" target="_blank" rel="noopener"><strong>Hexo</strong></a> nada mais é do que mais um projeto <strong>javascript</strong> para agilizar as coisas, ou, como ele mesmo se entitula: Um rápido, simples e poderoso framework para blogs.</p><p>Bem, suas principais caracterísiticas são:</p><ul><li>Feito em <strong>NodeJS</strong></li><li>Suporta <strong>Markdown</strong></li><li>Deploy simples em várias plataformas (GIT, Heroku, FTP, entre outros)</li><li>Muitos temas e plugins</li><li>E está no GitHub, ou seja, é <strong>Open Source</strong>!!</li></ul><blockquote><p>Talk is cheap. Show me the code.</p></blockquote><p><img src="https://citacoes.in/media/authors/21068_linus-torvalds.jpeg" alt></p><blockquote><p>(Linus Torvalds)</p></blockquote><p>Ok! Ok! Ok!</p><a id="more"></a><h2 id="Vamos-fazer-um-blog-em-6-passos-ok"><a href="#Vamos-fazer-um-blog-em-6-passos-ok" class="headerlink" title="Vamos fazer um blog em 6 passos, ok?"></a>Vamos fazer um blog em 6 passos, ok?</h2><p>O objetivo aqui é subir esse blog no <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>. Então o primeiro passo é criar um repositório…</p><p>&nbsp;</p><h3 id="1-Criar-repositorio-no-GitHub"><a href="#1-Criar-repositorio-no-GitHub" class="headerlink" title="1) Criar repositório no GitHub"></a>1) Criar repositório no GitHub</h3><ul><li>Defina um nome e uma descrição</li><li>Adicione um README</li><li>Coloque na licença MIT</li></ul><p>Estes dois últimos são só para manter organizado e livre :)</p><p><img src="/images/Hexo-Seu-blog-em-6-passos/1.png" alt="Criar repositório no GitHub"></p><p>&nbsp;</p><h3 id="2-Instalar-Hexo-CLI"><a href="#2-Instalar-Hexo-CLI" class="headerlink" title="2) Instalar Hexo CLI"></a>2) Instalar Hexo CLI</h3><p>É preciso instalar o CLI do Hexo, você deve executar seguinte comando:</p><p><code>$ npm i -g hexo-cli</code></p><p>&nbsp;</p><h3 id="3-Dar-init-no-blog"><a href="#3-Dar-init-no-blog" class="headerlink" title="3) Dar init no blog"></a>3) Dar <code>init</code> no blog</h3><p>Agora vamos iniciar um blog com o nome do seu repositório.</p><p><code>$ hexo init &lt;your-repo-name&gt;</code></p><p>Ele vai executar uma série de comandos e deve retornar uma mensagem de sucesso como a seguir:</p><p><code>INFO: Starting blogging with Hexo!</code></p><p><strong>F I R S T&nbsp;&nbsp;W I N&nbsp;&nbsp;:)</strong></p><p>&nbsp;</p><h3 id="4-Instalar-dependencias"><a href="#4-Instalar-dependencias" class="headerlink" title="4) Instalar dependências"></a>4) Instalar dependências</h3><p>Isso é padrão para um projeto em NodeJS, então só vai…</p><p><code>$ cd &lt;your-repo-name&gt;</code><br><code>$ npm install</code></p><p>&nbsp;</p><h3 id="5-Servir-localmente-para-ver-se-esta-tudo-ok"><a href="#5-Servir-localmente-para-ver-se-esta-tudo-ok" class="headerlink" title="5) Servir localmente para ver se está tudo ok"></a>5) Servir localmente para ver se está tudo ok</h3><p>Tenha calma, esta parte é realmente difícil.</p><p>Você está pronto?!</p><p>Tem certeza?!</p><p>Então vamos lá hein?!</p><p>Vai!!</p><p><code>$ hexo serve</code></p><p>Bem, foi complexo mas deve ter dado certo.<br>Então agora acesse <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> e…</p><p><img src="/images/Hexo-Seu-blog-em-6-passos/2.png" alt="Servir localmente para ver se está tudo ok"></p><p><strong>S E C O N D&nbsp;&nbsp;W I N&nbsp;&nbsp;\o/</strong></p><p>&nbsp;</p><h3 id="6-Fazer-Deploy"><a href="#6-Fazer-Deploy" class="headerlink" title="6) Fazer Deploy"></a>6) Fazer Deploy</h3><p>Tá bom, parei de brincar… Agora vem mesmo a parte mais complicadinha, mas fácil, entendeu?!</p><ul><li>Precisamos de um plugin para fazer o deploy:</li></ul><p><code>$ npm i hexo-deployer-git --save</code></p><ul><li>Precisamos também editar o <code>_config.yml</code> para adicionar as configurações do GitHub:</li></ul><p><img src="/images/Hexo-Seu-blog-em-6-passos/3.png" alt="Deploy - _config.yml"></p><p>Obviamente você deverá trocar <code>your-user</code> e <code>your-repo-name</code> pelo dados do seu repositório.<br>E também trocar (ou não) a <em>branch</em> para uma de sua escolha. No meu caso eu coloquei <code>gh-pages</code> pois o GitHub já reconhece e gera automaticamente uma url para seu blog.</p><ul><li>Agora vamos colocar esse blog no ar:</li></ul><p><code>$ hexo deploy --generate</code></p><p>Isso irá gerar os arquivos estáticos e fazer o deploy no GitHub Pages..</p><p>Voilà!</p><p><code>Your site is published at http://&lt;your-user&gt;.github.io/&lt;your-repo-name&gt;</code></p><p>ou</p><p><code>Your site is published at http://&lt;your-custom-domain&gt;/&lt;your-repo-name&gt;</code></p><p><img src="/images/Hexo-Seu-blog-em-6-passos/4.png" alt="Deploy - Your site is published at"></p><p><strong>T H I R D&nbsp;&nbsp;W I N&nbsp;&nbsp;^_^</strong></p><p>E é isso, seu blog está no ar!</p><blockquote><p>Acha que acabou, achou errado OTÁRIO!</p></blockquote><h1 id="Escrevendo"><a href="#Escrevendo" class="headerlink" title="Escrevendo.."></a>Escrevendo..</h1><p><code>$ hexo new [layout] &lt;title&gt;</code></p><p>O <code>[layout]</code> pode ser <code>post</code>, <code>page</code> ou <code>draft</code>.<br>E <code>&lt;title&gt;</code> deve ser o título desejado para seu post, o mesmo que irá aparecer na URL.</p><ul><li>Na prática</li></ul><p><code>$ hexo new post &quot;Teste de Post&quot;</code></p><p>Ele cria um arquivo <code>Teste-de-Post.md</code> dentro de <code>source\_posts</code> e nele você deve escrever algo como isso:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Teste de Post</span><br><span class="line">date: 2018-10-30 00:05:58</span><br><span class="line">tags: [teste, post]</span><br><span class="line">category: Geral</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">Olá, como estão?</span><br><span class="line"></span><br><span class="line">&lt;!-- more --&gt;</span><br><span class="line"></span><br><span class="line">Eu estou bem :D</span><br></pre></td></tr></table></figure><p>Pronto, agora é só seguir o passo 6 e ser feliz!!</p><blockquote><p>Ainda não acabou, temos que falar sobre personalizações..</p></blockquote><h1 id="Personalizacoes"><a href="#Personalizacoes" class="headerlink" title="Personalizações"></a>Personalizações</h1><p>Eu sei que já falamos sobre o <code>_config.yml</code> mas tem muito mais coisas que vocês pode/deve configurar:</p><ul><li>Dados básicos do blog</li><li>Formato da URL</li><li>Categorias e Tags</li><li>Data e Hora</li></ul><p>Deve ficar mais ou menos assim:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"># Hexo Configuration</span><br><span class="line">## Docs: https://hexo.io/docs/configuration.html</span><br><span class="line">## Source: https://github.com/hexojs/hexo/</span><br><span class="line"></span><br><span class="line"># Site #### &lt;&lt;&lt; Trabalhe bem esta seção, isso vai ajudar muito seu blog a ser indexado e crescer</span><br><span class="line">title: My User</span><br><span class="line">subtitle: A one simple subtitle</span><br><span class="line">description: Hello, i&apos;m a description</span><br><span class="line">keywords: blog, myuser</span><br><span class="line">author: My Name</span><br><span class="line">language: pt</span><br><span class="line">timezone: America/Sao_Paulo</span><br><span class="line"></span><br><span class="line"># URL</span><br><span class="line">## If your site is put in a subdirectory,</span><br><span class="line">## set url as &apos;http://myuser.github.io/child&apos; and root as &apos;/child/&apos;</span><br><span class="line">url: http://myuser.github.io  #### &lt;&lt;&lt; Coloque a URL do seu site</span><br><span class="line">root: /</span><br><span class="line">permalink: :year/:month/:day/:title/</span><br><span class="line">permalink_defaults:</span><br><span class="line"></span><br><span class="line">[...]</span><br><span class="line">  </span><br><span class="line"># Category &amp; Tag</span><br><span class="line">default_category: Geral #### &lt;&lt;&lt; É sempre bom ter uma categoria padrão</span><br><span class="line">category_map:</span><br><span class="line">tag_map:</span><br><span class="line"></span><br><span class="line"># Date / Time format</span><br><span class="line">## Hexo uses Moment.js to parse and display date</span><br><span class="line">## You can customize the date format as defined in</span><br><span class="line">## http://momentjs.com/docs/#/displaying/format/</span><br><span class="line">date_format: DD/MM/YYYY #### &lt;&lt;&lt; Mude para o formato brasileiro, por exemplo</span><br><span class="line">time_format: HH:mm:ss</span><br><span class="line"></span><br><span class="line">[...]</span><br></pre></td></tr></table></figure><h1 id="Temas"><a href="#Temas" class="headerlink" title="Temas"></a>Temas</h1><p>O Hexo em seu site, disponibiliza vários <a href="https://hexo.io/themes/" target="_blank" rel="noopener">temas</a> criados pela própria comunidade, basta você escolher um, baixar em formato <code>.zip</code> e colocar dentro da pasta <code>themes</code>.</p><p><em>Você pode usar submodule, mas confesso que é um trabalho desnecessário, prefira o zip</em></p><p>Feito isso, basta trocar o tema no <code>_config.yml</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># Extensions</span><br><span class="line">## Plugins: https://hexo.io/plugins/</span><br><span class="line">## Themes: https://hexo.io/themes/</span><br><span class="line">theme: landscape #### &lt;&lt;&lt; Coloque aqui o nome do tema que você escolheu</span><br></pre></td></tr></table></figure><p>Teste o localmente usando o passo 5 para ver se está tudo ok.<br>Se está tudo certo, faça o processo de deploy (passo 6) novamente para ver o resultado.</p><p><strong>É importante saber que cada tema tem suas próprias configurações, ou seja, dentro da pasta dele também existe um arquivo <code>_config.yml</code>, pode edita-lo sem medo.</strong></p><h1 id="Plugins"><a href="#Plugins" class="headerlink" title="Plugins"></a>Plugins</h1><p>O processo para uso de plugins é bem mais simples, é só dar <code>$ npm install --save hexo-&lt;plugin&gt;</code> e sair usando..</p><p><em>Nessa caso você não precisa alterar nada no <code>_config.yml</code></em></p><p>Veja os plugins disponíveis <a href="https://hexo.io/plugins/" target="_blank" rel="noopener">aqui</a>, baixe um, leia a documentação e divirta-se!</p><p>&nbsp;</p><h3 id="Por-hoje-e-so-pessoal"><a href="#Por-hoje-e-so-pessoal" class="headerlink" title="Por hoje é só pessoal!"></a>Por hoje é só pessoal!</h3><p>Se tiver dúvidas, sugestões ou o que quer seja relacionado ao Hexo e a criação de blogs, deixe seu comentário.</p><p>É isso, até a próxima..</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Quem diz que a era dos Blogs na internet acabou, não poderia estar mais errado. Com a recente disseminação de conhecimento sobre marketing de conteúdo e SEO, ter um blog atualizado para o seu negócio se tornou ainda mais essencial para sua estratégia de marketing.&lt;/p&gt;
+&lt;p&gt;Por outro lado, é provável que você não tenha muito tempo disponível para desenvolver um blog a partir de um framework complexo. Por isso, hoje venho te apresentar uma alternativa prática e eficiente, que permitirá implementar um blog bonito e funcional para você ou sua empresa em apenas 6 passos: o Hexo.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hexo.io/pt-br/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;strong&gt;Hexo&lt;/strong&gt;&lt;/a&gt; nada mais é do que mais um projeto &lt;strong&gt;javascript&lt;/strong&gt; para agilizar as coisas, ou, como ele mesmo se entitula: Um rápido, simples e poderoso framework para blogs.&lt;/p&gt;
+&lt;p&gt;Bem, suas principais caracterísiticas são:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Feito em &lt;strong&gt;NodeJS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Suporta &lt;strong&gt;Markdown&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Deploy simples em várias plataformas (GIT, Heroku, FTP, entre outros)&lt;/li&gt;
+&lt;li&gt;Muitos temas e plugins&lt;/li&gt;
+&lt;li&gt;E está no GitHub, ou seja, é &lt;strong&gt;Open Source&lt;/strong&gt;!!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Talk is cheap. Show me the code.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https://citacoes.in/media/authors/21068_linus-torvalds.jpeg&quot; alt&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;(Linus Torvalds)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Ok! Ok! Ok!&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Geral" scheme="https://blog.dotenorio.com/categories/Geral/"/>
+    
+    
+      <category term="hexo" scheme="https://blog.dotenorio.com/tags/hexo/"/>
+    
+      <category term="framework" scheme="https://blog.dotenorio.com/tags/framework/"/>
+    
+      <category term="blogs" scheme="https://blog.dotenorio.com/tags/blogs/"/>
+    
+      <category term="static" scheme="https://blog.dotenorio.com/tags/static/"/>
+    
+      <category term="nodejs" scheme="https://blog.dotenorio.com/tags/nodejs/"/>
+    
+      <category term="javascript" scheme="https://blog.dotenorio.com/tags/javascript/"/>
+    
+      <category term="markdown" scheme="https://blog.dotenorio.com/tags/markdown/"/>
+    
+      <category term="open-source" scheme="https://blog.dotenorio.com/tags/open-source/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>O dia em que o Pega Varetas encontrou o MobileUI</title>
+    <link href="https://blog.dotenorio.com/2018/06/26/O-dia-em-que-o-Pega-Varetas-encontrou-o-MobileUI/"/>
+    <id>https://blog.dotenorio.com/2018/06/26/O-dia-em-que-o-Pega-Varetas-encontrou-o-MobileUI/</id>
+    <published>2018-06-26T19:20:34.000Z</published>
+    <updated>2019-03-27T18:00:43.591Z</updated>
+    
+    <content type="html"><![CDATA[<p>Pra quem não sabe <a href="https://mobileui.github.io/" target="_blank" rel="noopener"><strong>MobileUI</strong></a> <code>is a simple and easy NPM package to install UI Components for web mobile apps using HTML, CSS and JavaScript</code>, ou seja, um monte de recursos visuais (em sua maioria) com os quais possibilitam criar belos aplicativos de maneira bem simples e rápida.</p><p>Ok, mas o que isso tem a ver com <strong>Pega Varetas</strong>? Ainda nada, mas vamos chegar lá..</p><a id="more"></a><p>Dia desses jogando <strong>Pega Varetas</strong> com meu filho de 5 anos, ele resolveu considerar os pontos de cada cor de vareta, e me fez buscar na internet os valores e fazer as contas para descobrir quem realmente tinha ganho.. Eu perdi é claro! Mas vi ali a oportunidade de fazer um app realmente útil e aqui estamos..</p><p>Como eu trabalho com o criador do <strong>MobileUI</strong> e já havia utilizado esta ferramenta num hackaton a uns tempos atrás, juntei a fome com a vontade de comer. O app para salvar minhas noites de jogatina com meu muleque seria feito utilizando <strong>MobileUI</strong>.</p><p>Pois bem, ideia consolidada, num almoço dias depois começei a saga.. Minutos depois já tinha dois parceiros para o projeto: O Fábio Rogério e o Vinícius Rufine. Nessa hora não tinha mais volta, eu iria terminar esse projeto e testar com o Joaquim. Dia após dia o Fábio tomava as rédeas do meu PC e faiza várias alterações de layout e funções de algumas partes, show! O Vinicius testava a aplicação a cada passo, se empolgava cada vez com a ideia e dava seus amados feedbacks.</p><p>Caramba, foram dias intensos viu, passava horas pensando em como resolver pequenos detalhes, não tive mais almoços (risos), e chegava em casa gastava ao menos 30 minutos pra resolver alguma coisinha pra poder dormir em paz. Como eu tinha o <strong>MobileUI</strong> de ferramenta, tudo fluia rápido e dava resultado esperado, sinceramente, acho que nunca me empolguei tanto com um projeto “offtopic” digamos assim. Valeu muito a pena:</p><p><img src="https://github.com/dotenorio/pega-varetas/blob/master/res/screenshots/1-login.png?raw=true" alt="Tela de Login" width="400px"><br><img src="https://github.com/dotenorio/pega-varetas/blob/master/res/screenshots/2-player-area.png?raw=true" alt="Área do Jogador" width="400px"></p><p>Bem é isso que temos até agora, já testei uma vez com o Joaquim, temos mais 3 ou 7 modificações e ai mandaremos ele para a Play Store. Sei lá, vai que cola :D</p><p>Link para o projeto <strong>Pega Varetas</strong>: <a href="https://github.com/dotenorio/pega-varetas" target="_blank" rel="noopener">https://github.com/dotenorio/pega-varetas</a><br>Link para o <strong>MobileUI</strong>: <a href="https://mobileui.github.io/" target="_blank" rel="noopener">https://mobileui.github.io/</a></p><p><em>Todo feedback e/ou pull request são válidos.</em></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Pra quem não sabe &lt;a href=&quot;https://mobileui.github.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;strong&gt;MobileUI&lt;/strong&gt;&lt;/a&gt; &lt;code&gt;is a simple and easy NPM package to install UI Components for web mobile apps using HTML, CSS and JavaScript&lt;/code&gt;, ou seja, um monte de recursos visuais (em sua maioria) com os quais possibilitam criar belos aplicativos de maneira bem simples e rápida.&lt;/p&gt;
+&lt;p&gt;Ok, mas o que isso tem a ver com &lt;strong&gt;Pega Varetas&lt;/strong&gt;? Ainda nada, mas vamos chegar lá..&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Geral" scheme="https://blog.dotenorio.com/categories/Geral/"/>
+    
+    
+      <category term="mobileui" scheme="https://blog.dotenorio.com/tags/mobileui/"/>
+    
+      <category term="pega_varetas" scheme="https://blog.dotenorio.com/tags/pega-varetas/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Criando aliases para comandos GIT</title>
+    <link href="https://blog.dotenorio.com/2018/06/11/Criando-aliases-para-comandos-GIT/"/>
+    <id>https://blog.dotenorio.com/2018/06/11/Criando-aliases-para-comandos-GIT/</id>
+    <published>2018-06-11T15:44:51.000Z</published>
+    <updated>2019-03-27T18:00:43.591Z</updated>
+    
+    <content type="html"><![CDATA[<p>Se assim como eu, você é o típico programador preguisoço que quer automatizar tudo, escrever pouco e tentar dominar o mundo todos com o mínimo de esforço. Bem, essa dica é pra você!</p><p>Eu sempre achei chato ter que escrever <code>checkout</code> toda vez para recuperar algum arquivo ou trocar de branch, isso por que eu sempre errava e tinha que rodar o comando mais de uma vez até acertar. </p><p>Você pode dizer que isso dislexia. Não é!!! (pelo menos eu acho que não :p)</p><a id="more"></a><p>Piadocas a parte, descobri que o <em>GIT</em> tinha um recurso para criar aliases para seus comandos, e que é bem simples.<br>Por exemplo, para não ter de <del>errar</del> escrever mais <code>checkout</code> eu rodei o seguinte comando:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global alias.co checkout</span><br></pre></td></tr></table></figure><p>E agora eu só preciso digitar <code>git co master</code> e pronto, me tornei uma pessoa mais feliz.</p><p>O mesmo pode ser feito pros outros comandos:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global alias.br branch</span><br><span class="line">$ git config --global alias.ci commit</span><br><span class="line">$ git config --global alias.st status</span><br></pre></td></tr></table></figure><p>E como se já não fosse vadiagem demais eu criei um módulo no npm para fazer esses aliases de maineira automatizada. É só rodar <code>npm i -g git_aliases</code> ou baixar um executável no <a href="https://github.com/dotenorio/git_aliases/tree/master/output" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Referencias"><a href="#Referencias" class="headerlink" title="Referências"></a>Referências</h2><p><a href="https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases" target="_blank" rel="noopener">https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases</a><br><a href="https://github.com/dotenorio/git_aliases" target="_blank" rel="noopener">https://github.com/dotenorio/git_aliases</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Se assim como eu, você é o típico programador preguisoço que quer automatizar tudo, escrever pouco e tentar dominar o mundo todos com o mínimo de esforço. Bem, essa dica é pra você!&lt;/p&gt;
+&lt;p&gt;Eu sempre achei chato ter que escrever &lt;code&gt;checkout&lt;/code&gt; toda vez para recuperar algum arquivo ou trocar de branch, isso por que eu sempre errava e tinha que rodar o comando mais de uma vez até acertar. &lt;/p&gt;
+&lt;p&gt;Você pode dizer que isso dislexia. Não é!!! (pelo menos eu acho que não :p)&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Geral" scheme="https://blog.dotenorio.com/categories/Geral/"/>
+    
+    
+      <category term="git" scheme="https://blog.dotenorio.com/tags/git/"/>
+    
+      <category term="aliases" scheme="https://blog.dotenorio.com/tags/aliases/"/>
+    
+      <category term="config" scheme="https://blog.dotenorio.com/tags/config/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Olá Mundo</title>
+    <link href="https://blog.dotenorio.com/2018/06/08/ola-mundo/"/>
+    <id>https://blog.dotenorio.com/2018/06/08/ola-mundo/</id>
+    <published>2018-06-08T20:13:27.000Z</published>
+    <updated>2019-03-27T18:00:43.591Z</updated>
+    
+    <content type="html"><![CDATA[<p>Seja bem-vindo ao meu estimado blog!</p><p>Aqui eu pretendo contar uma pouco das minhas experiências, fazer tutoriais e outros materiais que eu ache dahora.</p><p><iframe src="https://giphy.com/embed/OF0yOAufcWLfi" width="480" height="238" frameborder="0" class="giphy-embed" allowfullscreen></iframe></p><p><a href="https://giphy.com/gifs/celebs-jimmy-fallon-OF0yOAufcWLfi" target="_blank" rel="noopener">via GIPHY</a></p><p></p><p>:D</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Seja bem-vindo ao meu estimado blog!&lt;/p&gt;
+&lt;p&gt;Aqui eu pretendo contar uma pouco das minhas experiências, fazer tutoriais e outros materiais
+      
+    
+    </summary>
+    
+      <category term="Geral" scheme="https://blog.dotenorio.com/categories/Geral/"/>
+    
+    
+      <category term="ola" scheme="https://blog.dotenorio.com/tags/ola/"/>
+    
+      <category term="mundo" scheme="https://blog.dotenorio.com/tags/mundo/"/>
+    
+  </entry>
+  
+</feed>
